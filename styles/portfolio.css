@@ -9,12 +9,29 @@
 .text-primary {
   color: #fd6e0a;
 }
-
+.dark-2 {
+  color: #474747;
+}
 /* Nav styles */
 nav {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+nav ul {
+  display: flex;
+}
+
 .nav-title {
   font-weight: 800;
   font-size: 45px;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav li a {
+  text-decoration: none;
 }
