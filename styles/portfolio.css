@@ -21,6 +21,9 @@
   border: none;
   padding: 18px 35px;
 }
+.secondary-bg {
+  background-color: #fff8f3;
+}
 /* header style */
 .header {
   background-image:
@@ -78,4 +81,47 @@ nav li a {
 }
 .banner-pic {
   width: 584px;
+}
+
+/* main style */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+main section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* about section style */
+.about {
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+}
+.about-items-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-title {
+  font-weight: bold;
+  font-size: 35px;
+  color: #181818;
+}
+.about-description {
+  font-weight: normal;
+  font-size: 18px;
+  color: #757575;
+}
+.item-title {
+  font-weight: normal;
+  font-size: 20px;
+  color: #757575;
+  margin-bottom: 0;
+}
+.item-description {
+  font-weight: bold;
+  font-size: 20px;
+  color: #757575;
+  margin-top: 0;
 }
