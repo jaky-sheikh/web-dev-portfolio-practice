@@ -58,6 +58,7 @@ nav li a {
 /* banner style */
 .banner-container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   margin: 0 38px 0 200px;
 }
@@ -67,11 +68,13 @@ nav li a {
 .banner-greetings {
   font-size: 45px;
   font-weight: 600;
+  margin: 0;
 }
 .banner-title {
   color: #181818;
   font-size: 85px;
   font-weight: bold;
+  margin: 0;
 }
 .banner-pic {
   width: 584px;
